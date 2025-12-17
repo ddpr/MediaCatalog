@@ -1,6 +1,10 @@
-@MediaCatalog_HostAddress = http://localhost:5253
+@MediaCatalog_HostAddress = https://localhost:7096
 
 GET {{MediaCatalog_HostAddress}}/weatherforecast/
 Accept: application/json
+
+###
+
+GET {{MediaCatalog_HostAddress}}/weatherforecast
 
 ###
